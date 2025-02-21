@@ -5,31 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFO.ESTADISTICA CONSAR</title>
     <style>
-        /*Asegurarnos que el informe ocupe toda la página*/
-        body, html 
-        {
+        /* Asegurar que el informe ocupe toda la pantalla */
+        body, html {
             margin: 0;
             padding: 0;
             height: 100%;
         }
- 
-        iframe 
-        {
+
+        iframe {
             width: 100%;
             height: 100vh;
-            border: none; 
+            border: none;
         }
-
-
     </style>
 </head>
 <body>
-    
     <!-- Incrustar el reporte de Looker Studio en web -->
-   
-    <iframe width="600" height="4167" 
-    src="https://lookerstudio.google.com/embed/reporting/2c0e11f6-dfe3-4389-8762-0b3b14a6edc7/page/p_edtmvisjpd" frameborder="0"
-     style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
+    <iframe 
+        src="https://lookerstudio.google.com/embed/reporting/2c0e11f6-dfe3-4389-8762-0b3b14a6edc7/page/p_edtmvisjpd" 
+        style="border: 0;" 
+        allowfullscreen 
+        sandbox="allow-scripts allow-same-origin allow-popups">
+    </iframe>
 </body>
 </html>
+
